@@ -5,11 +5,13 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Hello2 from './components/Hello2'
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      {/* <Message /> */}
+      <Counter />
        {/* <Greet name = "clark" heroName="SuperMan" />
        <p>This is children props</p><Greet />
        <Greet  name = "Bruse" heroName="BatMan" />
@@ -27,3 +29,7 @@ export default App;
  // jsx 
 
  // https://www.youtube.com/watch?v=uirRaVjRsf4&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=11
+
+ // https://www.cometchat.com/tutorials
+
+ 
