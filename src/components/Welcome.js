@@ -2,7 +2,9 @@ import react, {Component} from 'react'
 
 class Welcome extends Component {
     render(){
-        return <h1>Welcome {this.props.name} a.ka. {this.props.heroName} </h1> 
+        const {name, heroName} = this.props
+        const {state1, state2} = this.state // when it comes to states
+        return <h1>Welcome {name} a.ka. {heroName} </h1> 
     }
 }
 
@@ -17,3 +19,5 @@ export default Welcome
 //2. complex ui logic
 // 3. provide lifecycle hooks
 // 4. stateful/smart/container
+
+// day two = destructuring class componets - props - states
